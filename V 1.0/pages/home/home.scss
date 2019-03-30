@@ -1,0 +1,51 @@
+page-home {
+
+}
+
+#LogoCamara {
+  font-size: 64px;
+}
+.containerLogo{
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+
+#results{
+  position: relative;
+  left: 17%;
+  color: #000000;
+  top: 20px;
+  font-family: Verdana,Helvetica;
+  font-size: 20px;
+}
+#buttonsMedia{
+   position: relative;
+   top: 100px;
+   margin:10px;
+   text-align: center;
+ }
+
+#buttonsMediaCamera{
+
+  width: 90px;
+}
+#buttonsMediaGaelria{
+  width: 100px;
+  color: #488aff;
+}
+#iconCamera{
+  position: relative;
+  left: 10px;
+}
+#iconFolder{
+  position: relative;
+  left: 7px;
+}
+.imagenCamera{
+  height: 300px;
+  width: 250px;
+  top: 80px;
+  position: relative;
+  left: 20%;
+}

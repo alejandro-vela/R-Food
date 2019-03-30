@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title >
+      R-FOOD
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <div class="containerLogo">
+    <ion-icon id="LogoCamara" (click)="getPicture()" name="camera"></ion-icon>
+  </div>
+  <ion-buttons id="buttonsMedia" >
+    <button (click)="getPicture()"  id="buttonsMediaCamera" ion-button >Foto
+      <ion-icon id="iconCamera" name="camera"></ion-icon>
+    </button>
+  </ion-buttons>
+
+  <input type="file" id="imagen" (change)="nuevaImagen()">
+    <ion-icon id="iconFolder" name="folder"></ion-icon>
+
+  <!--
+     #ENTRADA POR #FOTOS #GUARDAS EN EL #DISPOSITIVO
+        <input type="file" id="imagen" (change)="nuevaImagen()">
+  -->
+  <div >
+    <img id="newimage" class="imagenCamera" (click)="consumirApi()" [src]="image" *ngIf="image"  /><br>
+  </div>
+	<!--<div -->
+	   <!--style="position: relative;-->
+	   <!--left: 30%; "-->
+      <!--id="results">-->
+	   <!--<br>-->
+	<!--</div>-->
+  <br><br><br>
+  <ion-list>
+    <ion-item >
+      <a id="results"></a>
+      <!--
+        <div class="item-note" slot="end">
+        {{item.note}}
+      </div>
+      -->
+    </ion-item>
+  </ion-list>
+</ion-content>
+<!--
+
+https://truecodes.org/2019/01/28/javascript-animation-dark-light-menu/
+
+Animacion
+-->
+
